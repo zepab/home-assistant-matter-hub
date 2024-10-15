@@ -1,0 +1,36 @@
+{
+  "name": "@home-assistant-matter-hub/docker",
+  "version": "dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "./build.sh",
+    "retrieve-package": "node retrieve-package.js",
+    "nx-release-publish": "./build.sh --latest --push --all-platforms"
+  },
+  "dependencies": {
+    "home-assistant-matter-hub": "*"
+  },
+  "devDependencies": {
+    "@home-assistant-matter-hub/build-utils": "*"
+  },
+  "nx": {
+    "targets": {
+      "retrieve-package": {
+        "cache": true,
+        "dependsOn": [
+          "^pack"
+        ],
+        "outputs": [
+          "{projectRoot}/package.tgz"
+        ]
+      },
+      "build": {
+        "cache": true,
+        "dependsOn": [
+          "retrieve-package"
+        ]
+      }
+    }
+  }
+}

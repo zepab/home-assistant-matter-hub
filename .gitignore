@@ -6,6 +6,7 @@
 
 # Personal Configs
 .env
+.local-storage/
 
 # Dependencies
 node_modules/

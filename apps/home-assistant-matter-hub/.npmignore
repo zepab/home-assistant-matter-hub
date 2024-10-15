@@ -1,0 +1,12 @@
+node_modules/
+test/
+.env*
+build.js
+tsconfig.json
+
+pack/
+
+!dist/
+!package.json
+!README.md
+!LICENSE

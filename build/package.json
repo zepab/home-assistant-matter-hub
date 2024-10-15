@@ -1,0 +1,7 @@
+{
+  "name": "@home-assistant-matter-hub/build-utils",
+  "version": "dev",
+  "private": true,
+  "type": "module",
+  "main": "index.js"
+}

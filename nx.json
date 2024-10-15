@@ -1,0 +1,46 @@
+{
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "namedInputs": {
+    "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"],
+    "default": ["sharedGlobals"]
+  },
+  "targetDefaults": {
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "build": {
+      "cache": true,
+      "dependsOn": ["^build"]
+    },
+    "serve": {
+      "cache": false,
+      "dependsOn": ["^build"]
+    }
+  },
+  "release": {
+    "projects": ["**", "!build"],
+    "changelog": {
+      "projectChangelogs": false,
+      "workspaceChangelog": {
+        "createRelease": false
+      },
+      "git": {
+        "stageChanges": true,
+        "commit": false,
+        "tag": false
+      }
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/js"
+    }
+  ]
+}
