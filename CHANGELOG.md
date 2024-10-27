@@ -1,3 +1,13 @@
+## 3.0.0-alpha.7 (2024-10-27)
+
+### 🩹 Fixes
+
+- add more configuration details ([7c95b3c](https://github.com/t0bst4r/home-assistant-matter-hub/commit/7c95b3c))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.6 (2024-10-27)
 
 ### 🩹 Fixes
