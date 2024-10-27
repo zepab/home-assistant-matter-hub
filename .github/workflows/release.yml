@@ -60,7 +60,9 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: false
         run: npx nx release publish
-      - run: |
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
           gh release create v$PACKAGE_VERSION \
             --latest \
             --notes-file CHANGELOG.md \
