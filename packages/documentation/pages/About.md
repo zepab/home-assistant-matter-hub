@@ -20,7 +20,7 @@ This application can be installed in three different ways:
 
 Simply add the following GitHub Repository URL to your Home Assistant AddOn Store.
 
-> https://github.com/t0bst4r/home-assistant-matter-hub
+> https://github.com/t0bst4r/home-assistant-addons
 
 1. Open the UI of your Home Assistant instance
 2. Go to `Settings` -> `Add-Ons` -> `Add-On Store`
