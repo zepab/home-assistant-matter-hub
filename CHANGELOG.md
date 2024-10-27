@@ -1,3 +1,13 @@
+## 3.0.0-alpha.6 (2024-10-27)
+
+### 🩹 Fixes
+
+- use fallback dirname for node:18 ([bbe0903](https://github.com/t0bst4r/home-assistant-matter-hub/commit/bbe0903))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.5 (2024-10-27)
 
 ### 🩹 Fixes
