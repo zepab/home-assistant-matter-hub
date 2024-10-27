@@ -44,12 +44,12 @@ jobs:
           key: ${{ runner.os }}-nx
 
       - run: npm ci
-      - run: npx nx release version --first-release
+      - run: npx nx release version
       - name: Extract new Version
         run: |
           PACKAGE_VERSION=$(node -p "require('home-assistant-matter-hub/package.json').version")
           echo "PACKAGE_VERSION=$PACKAGE_VERSION" >> "$GITHUB_ENV"
-      - run: npx nx release changelog --version $PACKAGE_VERSION --first-release
+      - run: npx nx release changelog --version $PACKAGE_VERSION
       - run: npm run pull-request
       - name: Commit, tag and push
         run: |
@@ -59,7 +59,7 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: false
-        run: npx nx release publish --first-release
+        run: npx nx release publish
       - run: |
           gh release create v$PACKAGE_VERSION \
             --latest \
