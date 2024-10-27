@@ -1,3 +1,13 @@
+## 3.0.0-alpha.5 (2024-10-27)
+
+### 🩹 Fixes
+
+- add missing token to generate github releases ([dd3479f](https://github.com/t0bst4r/home-assistant-matter-hub/commit/dd3479f))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.4 (2024-10-27)
 
 ### 🩹 Fixes
