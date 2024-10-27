@@ -1,3 +1,13 @@
+## 3.0.0-alpha.4 (2024-10-27)
+
+### 🩹 Fixes
+
+- remove first-release flag ([3b90bfe](https://github.com/t0bst4r/home-assistant-matter-hub/commit/3b90bfe))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.3 (2024-10-27)
 
 ### 🩹 Fixes
