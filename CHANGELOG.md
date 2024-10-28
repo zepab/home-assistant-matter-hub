@@ -1,3 +1,13 @@
+## 3.0.0-alpha.8 (2024-10-28)
+
+### 🩹 Fixes
+
+- **basic-information:** consider maxLength of device properties ([627aea5](https://github.com/t0bst4r/home-assistant-matter-hub/commit/627aea5))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.7 (2024-10-27)
 
 ### 🩹 Fixes
