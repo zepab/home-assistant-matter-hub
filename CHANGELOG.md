@@ -1,3 +1,19 @@
+## 3.0.0-alpha.9 (2024-10-29)
+
+### 🚀 Features
+
+- add support for input_boolean, scene, automation, script ([e63a955](https://github.com/t0bst4r/home-assistant-matter-hub/commit/e63a955))
+
+### 🩹 Fixes
+
+- add fallback mechanism for empty json files ([035a0bd](https://github.com/t0bst4r/home-assistant-matter-hub/commit/035a0bd))
+- remove all entities which don't have a state ([cb7b76c](https://github.com/t0bst4r/home-assistant-matter-hub/commit/cb7b76c))
+- **climate:** set controlSequenceOfOperation as a required property ([4816273](https://github.com/t0bst4r/home-assistant-matter-hub/commit/4816273))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.8 (2024-10-28)
 
 ### 🩹 Fixes
