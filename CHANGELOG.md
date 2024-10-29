@@ -1,3 +1,13 @@
+## 3.0.0-alpha.10 (2024-10-29)
+
+### 🩹 Fixes
+
+- ignore entities by their hidden and disabled state ([9e7b641](https://github.com/t0bst4r/home-assistant-matter-hub/commit/9e7b641))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.9 (2024-10-29)
 
 ### 🚀 Features
