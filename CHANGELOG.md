@@ -1,3 +1,14 @@
+## 3.0.0-alpha.11 (2024-10-29)
+
+### 🩹 Fixes
+
+- support pattern matching ([8107a8b](https://github.com/t0bst4r/home-assistant-matter-hub/commit/8107a8b))
+- **light:** add fallback-transition time to level- and color-control ([b0ed5a8](https://github.com/t0bst4r/home-assistant-matter-hub/commit/b0ed5a8))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.10 (2024-10-29)
 
 ### 🩹 Fixes
