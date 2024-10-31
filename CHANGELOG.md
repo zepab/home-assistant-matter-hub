@@ -1,3 +1,18 @@
+## 3.0.0-alpha.12 (2024-10-31)
+
+### 🚀 Features
+
+- allow configuring the mdns-interface ([441c99b](https://github.com/t0bst4r/home-assistant-matter-hub/commit/441c99b))
+- show version number in app title ([70bdca8](https://github.com/t0bst4r/home-assistant-matter-hub/commit/70bdca8))
+
+### 🩹 Fixes
+
+- add explicit icon for google vendor id ([0afbd42](https://github.com/t0bst4r/home-assistant-matter-hub/commit/0afbd42))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.11 (2024-10-29)
 
 ### 🩹 Fixes
