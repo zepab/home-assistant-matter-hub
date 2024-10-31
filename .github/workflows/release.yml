@@ -52,7 +52,9 @@ jobs:
       - run: |
           npx nx release changelog --version $PACKAGE_VERSION
           CHANGELOG=$(git diff HEAD CHANGELOG.md | sed -n '/^\+/s///p' | sed '1d')
-          echo "CHANGELOG=$CHANGELOG" >> "$GITHUB_ENV"
+          echo "CHANGELOG<<EOF" >> "$GITHUB_ENV"
+          echo "$CHANGELOG" >> "$GITHUB_ENV"
+          echo "EOF" >> "$GITHUB_ENV"
       - run: npm run pull-request
       - name: Commit, tag and push
         run: |
