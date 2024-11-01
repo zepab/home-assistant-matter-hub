@@ -1,3 +1,13 @@
+## 3.0.0-alpha.15 (2024-11-01)
+
+### 🩹 Fixes
+
+- **level-control:** configure minimal transition time ([e754974](https://github.com/t0bst4r/home-assistant-matter-hub/commit/e754974))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.14 (2024-11-01)
 
 ### 🩹 Fixes
