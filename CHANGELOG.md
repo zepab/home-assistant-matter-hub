@@ -1,3 +1,14 @@
+## 3.0.0-alpha.14 (2024-11-01)
+
+### 🩹 Fixes
+
+- **light:** use correct device type for color temp only devices ([4b57edf](https://github.com/t0bst4r/home-assistant-matter-hub/commit/4b57edf))
+- **light:** do not set out-of-bounds color temperatures ([a22ae25](https://github.com/t0bst4r/home-assistant-matter-hub/commit/a22ae25))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.13 (2024-11-01)
 
 ### 🩹 Fixes
