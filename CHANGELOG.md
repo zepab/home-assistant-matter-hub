@@ -1,3 +1,13 @@
+## 3.0.0-alpha.13 (2024-11-01)
+
+### 🩹 Fixes
+
+- implement moveToLevelWithOnOff for all levelControls ([93ab431](https://github.com/t0bst4r/home-assistant-matter-hub/commit/93ab431))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.12 (2024-10-31)
 
 ### 🚀 Features
