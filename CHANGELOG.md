@@ -1,3 +1,13 @@
+## 3.0.0-alpha.17 (2024-11-03)
+
+### 🩹 Fixes
+
+- **climate:** use cooling and heating together with auto mode ([6193a40](https://github.com/t0bst4r/home-assistant-matter-hub/commit/6193a40))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.16 (2024-11-03)
 
 ### 🩹 Fixes
