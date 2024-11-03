@@ -1,3 +1,14 @@
+## 3.0.0-alpha.16 (2024-11-03)
+
+### 🩹 Fixes
+
+- add hash to state subscription to prevent reuses when entity filter is changed ([1162dce](https://github.com/t0bst4r/home-assistant-matter-hub/commit/1162dce))
+- **climate:** allow auto-mode only ([7bb1f68](https://github.com/t0bst4r/home-assistant-matter-hub/commit/7bb1f68))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.15 (2024-11-01)
 
 ### 🩹 Fixes
