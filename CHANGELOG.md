@@ -1,3 +1,13 @@
+## 3.0.0-alpha.18 (2024-11-05)
+
+### 🚀 Features
+
+- use custom homeAssistantBehavior for better state management ([6e0f862](https://github.com/t0bst4r/home-assistant-matter-hub/commit/6e0f862))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.17 (2024-11-03)
 
 ### 🩹 Fixes
