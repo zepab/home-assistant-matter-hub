@@ -1,3 +1,13 @@
+## 3.0.0-alpha.19 (2024-11-06)
+
+### 🩹 Fixes
+
+- add silly logs for entity exclusion ([e635f91](https://github.com/t0bst4r/home-assistant-matter-hub/commit/e635f91))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.18 (2024-11-05)
 
 ### 🚀 Features
