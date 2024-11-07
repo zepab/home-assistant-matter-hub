@@ -1,3 +1,13 @@
+## 3.0.0-alpha.21 (2024-11-07)
+
+### 🩹 Fixes
+
+- prevent bridge edit screen from automatically changing the port ([415fada](https://github.com/t0bst4r/home-assistant-matter-hub/commit/415fada))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.20 (2024-11-07)
 
 ### 🚀 Features
