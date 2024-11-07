@@ -1,3 +1,13 @@
+## 3.0.0-alpha.20 (2024-11-07)
+
+### 🚀 Features
+
+- extracted bridge creation to it's own page, allow editing an existing bridge ([38287af](https://github.com/t0bst4r/home-assistant-matter-hub/commit/38287af))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.19 (2024-11-06)
 
 ### 🩹 Fixes
