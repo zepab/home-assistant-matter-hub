@@ -1,4 +1,4 @@
-import { BooleanStateServer as Base } from "@project-chip/matter.js/behaviors/boolean-state";
+import { BooleanStateServer as Base } from "@matter/main/behaviors/boolean-state";
 import { HomeAssistantEntityState } from "@home-assistant-matter-hub/common";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
 

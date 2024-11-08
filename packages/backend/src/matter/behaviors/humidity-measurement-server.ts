@@ -1,4 +1,4 @@
-import { RelativeHumidityMeasurementServer as Base } from "@project-chip/matter.js/behaviors/relative-humidity-measurement";
+import { RelativeHumidityMeasurementServer as Base } from "@matter/main/behaviors";
 import {
   HomeAssistantEntityState,
   SensorDeviceAttributes,

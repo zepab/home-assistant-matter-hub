@@ -1,7 +1,7 @@
-import { BridgedDeviceBasicInformationServer as Base } from "@project-chip/matter.js/behaviors/bridged-device-basic-information";
+import { BridgedDeviceBasicInformationServer as Base } from "@matter/main/behaviors";
 import crypto from "node:crypto";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
-import { VendorId } from "@project-chip/matter.js/datatype";
+import { VendorId } from "@matter/main";
 
 export class BasicInformationServer extends Base {
   override async initialize(): Promise<void> {

@@ -1,4 +1,4 @@
-import { OnOffServer as Base } from "@project-chip/matter.js/behaviors/on-off";
+import { OnOffServer as Base } from "@matter/main/behaviors";
 import { HomeAssistantEntityState } from "@home-assistant-matter-hub/common";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
 

@@ -1,9 +1,9 @@
-import { WindowCoveringServer as Base } from "@project-chip/matter.js/behaviors/window-covering";
+import { WindowCoveringServer as Base } from "@matter/main/behaviors";
 import {
   CoverDeviceAttributes,
   HomeAssistantEntityState,
 } from "@home-assistant-matter-hub/common";
-import { WindowCovering } from "@project-chip/matter.js/cluster";
+import { WindowCovering } from "@matter/main/clusters";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
 
 export interface WindowCoveringServerConfig {

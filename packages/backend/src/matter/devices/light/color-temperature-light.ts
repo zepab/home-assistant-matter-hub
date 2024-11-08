@@ -1,4 +1,4 @@
-import { ColorTemperatureLightDevice as Device } from "@project-chip/matter.js/devices/ColorTemperatureLightDevice";
+import { ColorTemperatureLightDevice as Device } from "@matter/main/devices";
 import { IdentifyServer } from "../../behaviors/identify-server.js";
 import { BasicInformationServer } from "../../behaviors/basic-information-server.js";
 import { OnOffServer } from "../../behaviors/on-off-server.js";

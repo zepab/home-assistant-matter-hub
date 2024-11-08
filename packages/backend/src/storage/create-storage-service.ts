@@ -1,8 +1,8 @@
-import { Storage } from "@project-chip/matter.js/storage";
+import { Storage } from "@matter/main";
 import path from "node:path";
 import os from "node:os";
 import fs from "node:fs";
-import { StorageBackendJsonFile } from "@project-chip/matter-node.js/storage";
+import { StorageBackendJsonFile } from "@matter/nodejs";
 import { Logger } from "winston";
 import { createChildLogger } from "../logging/create-child-logger.js";
 

@@ -8,11 +8,7 @@ import {
   UpdateBridgeRequest,
 } from "@home-assistant-matter-hub/common";
 import { PortAlreadyInUseError } from "../errors/port-already-in-use-error.js";
-import { Environment } from "@project-chip/matter.js/environment";
-import {
-  StorageContext,
-  StorageManager,
-} from "@project-chip/matter.js/storage";
+import { Environment, StorageContext, StorageManager } from "@matter/main";
 import { Service, ServiceBase } from "../utils/service.js";
 import { bridgeToJson } from "../utils/json/bridge-to-json.js";
 import { HomeAssistantClient } from "../home-assistant/home-assistant-client.js";

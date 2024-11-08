@@ -4,8 +4,8 @@ import {
   LightDeviceAttributes,
   LightDeviceColorMode,
 } from "@home-assistant-matter-hub/common";
-import { ColorControlServer as Base } from "@project-chip/matter.js/behaviors/color-control";
-import { ColorControl } from "@project-chip/matter.js/cluster";
+import { ColorControlServer as Base } from "@matter/main/behaviors/color-control";
+import { ColorControl } from "@matter/main/clusters";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
 
 export class ColorTemperatureControlServer extends Base.with(

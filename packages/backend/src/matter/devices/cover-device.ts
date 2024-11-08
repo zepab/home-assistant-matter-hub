@@ -1,5 +1,5 @@
 import { MatterDevice } from "../matter-device.js";
-import { WindowCoveringDevice } from "@project-chip/matter.js/devices/WindowCoveringDevice";
+import { WindowCoveringDevice } from "@matter/main/devices";
 import { BasicInformationServer } from "../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../behaviors/identify-server.js";
 import {

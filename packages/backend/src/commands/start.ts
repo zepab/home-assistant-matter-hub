@@ -1,24 +1,24 @@
-import "@project-chip/matter-node.js";
+import "@matter/nodejs";
 import { WebApi } from "../api/web-api.js";
 import { BridgeService } from "../matter/bridge-service.js";
 import { ArgumentsCamelCase, Argv, CommandModule } from "yargs";
 import { createLogger } from "../logging/create-logger.js";
-import { VendorId } from "@project-chip/matter.js/datatype";
 import { HomeAssistantClient } from "../home-assistant/home-assistant-client.js";
 import * as ws from "ws";
 import { BridgeBasicInformation } from "@home-assistant-matter-hub/common";
-import {
-  Environment,
-  MdnsService,
-  StorageService,
-} from "@project-chip/matter.js/environment";
 import { Service } from "../utils/service.js";
 import { Logger } from "winston";
 import { createChildLogger } from "../logging/create-child-logger.js";
-import { Logger as MatterLogger } from "@project-chip/matter.js/log";
 import { matterJsLogger } from "../logging/matter-js-logger.js";
 import _ from "lodash";
 import { createStorageService } from "../storage/create-storage-service.js";
+import { MdnsService } from "@matter/main/protocol";
+import {
+  VendorId,
+  Environment,
+  StorageService,
+  Logger as MatterLogger,
+} from "@matter/main";
 
 interface Options {
   "log-level": string;

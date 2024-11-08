@@ -1,6 +1,6 @@
-import { OccupancySensingServer as Base } from "@project-chip/matter.js/behaviors/occupancy-sensing";
+import { OccupancySensingServer as Base } from "@matter/main/behaviors";
 import { HomeAssistantEntityState } from "@home-assistant-matter-hub/common";
-import { OccupancySensing } from "@project-chip/matter.js/cluster";
+import { OccupancySensing } from "@matter/main/clusters";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
 
 export class OccupancySensingServer extends Base {

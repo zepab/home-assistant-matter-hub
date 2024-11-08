@@ -5,11 +5,13 @@ import {
   HomeAssistantEntityState,
 } from "@home-assistant-matter-hub/common";
 import { HomeAssistantBehavior } from "../custom-behaviors/home-assistant-behavior.js";
-import { ContactSensorDevice } from "@project-chip/matter.js/devices/ContactSensorDevice";
+import {
+  ContactSensorDevice,
+  OccupancySensorDevice,
+} from "@matter/main/devices";
 import { BasicInformationServer } from "../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../behaviors/identify-server.js";
 import { BooleanStateServer } from "../behaviors/boolean-state-server.js";
-import { OccupancySensorDevice } from "@project-chip/matter.js/devices/OccupancySensorDevice";
 import { OccupancySensingServer } from "../behaviors/occupancy-sensing-server.js";
 
 const ContactSensorType = ContactSensorDevice.with(

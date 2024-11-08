@@ -1,4 +1,4 @@
-import { TemperatureSensorDevice } from "@project-chip/matter.js/devices/TemperatureSensorDevice";
+import { TemperatureSensorDevice } from "@matter/main/devices";
 import { BasicInformationServer } from "../../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../../behaviors/identify-server.js";
 import { TemperatureMeasurementServer } from "../../behaviors/temperature-measurement-server.js";

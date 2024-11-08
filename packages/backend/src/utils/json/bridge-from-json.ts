@@ -1,15 +1,15 @@
 import { BridgeData } from "@home-assistant-matter-hub/common";
-import { Node, ServerNode } from "@project-chip/matter.js/node";
-import { Environment } from "@project-chip/matter.js/environment";
-import _ from "lodash";
-import { ExposedFabricInformation } from "@project-chip/matter.js/fabric";
+import { Node, ServerNode } from "@matter/main/node";
 import {
+  Environment,
   FabricId,
   FabricIndex,
   NodeId,
   VendorId,
-} from "@project-chip/matter.js/datatype";
-import { AggregatorEndpoint } from "@project-chip/matter.js/endpoints/AggregatorEndpoint";
+} from "@matter/main";
+import _ from "lodash";
+import { ExposedFabricInformation } from "@matter/main/protocol";
+import { AggregatorEndpoint } from "@matter/main/endpoints";
 import crypto from "node:crypto";
 
 type ServerNodeConfiguration = Node.Configuration<ServerNode.RootEndpoint>;

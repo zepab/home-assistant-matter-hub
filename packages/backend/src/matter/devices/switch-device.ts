@@ -1,5 +1,5 @@
 import { MatterDevice } from "../matter-device.js";
-import { OnOffPlugInUnitDevice } from "@project-chip/matter.js/devices/OnOffPlugInUnitDevice";
+import { OnOffPlugInUnitDevice } from "@matter/main/devices";
 import { OnOffServer } from "../behaviors/on-off-server.js";
 import { BasicInformationServer } from "../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../behaviors/identify-server.js";

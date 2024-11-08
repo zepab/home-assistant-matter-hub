@@ -1,11 +1,11 @@
-import { Behavior } from "@project-chip/matter.js/behavior";
+import { Behavior } from "@matter/main";
 import {
   BridgeBasicInformation,
   HomeAssistantEntityRegistry,
   HomeAssistantEntityState,
 } from "@home-assistant-matter-hub/common";
 import type { HassServiceTarget } from "home-assistant-js-websocket/dist/types.js";
-import { EventEmitter, MaybePromise } from "@project-chip/matter.js/util";
+import { EventEmitter, MaybePromise } from "@matter/main";
 import { AsyncObservable } from "../../utils/async-observable.js";
 import { HomeAssistantActions } from "../../home-assistant/home-assistant-actions.js";
 

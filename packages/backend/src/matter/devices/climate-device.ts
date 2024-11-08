@@ -1,5 +1,5 @@
 import { MatterDevice } from "../matter-device.js";
-import { ThermostatDevice } from "@project-chip/matter.js/devices/ThermostatDevice";
+import { ThermostatDevice } from "@matter/main/devices";
 import { BasicInformationServer } from "../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../behaviors/identify-server.js";
 import {

@@ -5,9 +5,9 @@ import {
   HomeAssistantEntityState,
   HomeAssistantFilter,
 } from "@home-assistant-matter-hub/common";
-import { ServerNode } from "@project-chip/matter.js/node";
-import { AggregatorEndpoint } from "@project-chip/matter.js/endpoints/AggregatorEndpoint";
-import { Environment } from "@project-chip/matter.js/environment";
+import { ServerNode } from "@matter/main/node";
+import { AggregatorEndpoint } from "@matter/main/endpoints";
+import { Endpoint, Environment } from "@matter/main";
 import { Logger } from "winston";
 import { detach } from "../utils/detach.js";
 import { MatterDevice } from "./matter-device.js";
@@ -15,7 +15,6 @@ import { ServiceBase } from "../utils/service.js";
 import { bridgeFromJson } from "../utils/json/bridge-from-json.js";
 import { HomeAssistantClient } from "../home-assistant/home-assistant-client.js";
 import _, { Dictionary } from "lodash";
-import { Endpoint } from "@project-chip/matter.js/endpoint";
 import { createDevice } from "./create-device.js";
 
 export interface BridgeProps {

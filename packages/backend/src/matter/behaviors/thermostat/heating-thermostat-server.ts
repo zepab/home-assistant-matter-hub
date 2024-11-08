@@ -1,8 +1,8 @@
-import { ThermostatServer as Base } from "@project-chip/matter.js/behaviors/thermostat";
+import { ThermostatServer as Base } from "@matter/main/behaviors";
 import { ThermostatBaseServer } from "./thermostat-base-server.js";
 import { HomeAssistantEntityState } from "@home-assistant-matter-hub/common";
-import { Behavior } from "@project-chip/matter.js/behavior";
-import { Thermostat } from "@project-chip/matter.js/cluster";
+import { Behavior } from "@matter/main";
+import { Thermostat } from "@matter/main/clusters";
 
 export class HeatingThermostatServer extends ThermostatBaseServer(
   Base.with("Heating"),

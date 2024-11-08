@@ -1,3 +1,3 @@
-import { IdentifyServer as Base } from "@project-chip/matter.js/behaviors/identify";
+import { IdentifyServer as Base } from "@matter/main/behaviors";
 
 export class IdentifyServer extends Base {}

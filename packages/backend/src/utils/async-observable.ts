@@ -1,5 +1,4 @@
-import { ActionContext } from "@project-chip/matter.js/behavior";
-import { AsyncObservable as Base } from "@project-chip/matter.js/util";
+import { ActionContext, AsyncObservable as Base } from "@matter/main";
 
 export const AsyncObservable = <T>() =>
   Base<[value: T, oldValue: T, context: ActionContext]>();

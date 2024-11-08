@@ -1,4 +1,4 @@
-import { TemperatureMeasurementServer as Base } from "@project-chip/matter.js/behaviors/temperature-measurement";
+import { TemperatureMeasurementServer as Base } from "@matter/main/behaviors";
 import {
   HomeAssistantEntityState,
   SensorDeviceAttributes,

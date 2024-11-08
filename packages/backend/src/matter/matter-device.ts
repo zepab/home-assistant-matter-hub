@@ -1,7 +1,6 @@
 import { HomeAssistantEntityState } from "@home-assistant-matter-hub/common";
-import { Endpoint, EndpointType } from "@project-chip/matter.js/endpoint";
+import { Behavior, Endpoint, EndpointType } from "@matter/main";
 import { HomeAssistantBehavior } from "./custom-behaviors/home-assistant-behavior.js";
-import { Behavior } from "@project-chip/matter.js/behavior";
 
 export class MatterDevice<
   T extends EndpointType = EndpointType.Empty,

@@ -4,9 +4,9 @@ import {
   HomeAssistantEntityState,
   Type,
 } from "@home-assistant-matter-hub/common";
-import { ThermostatServer as Base } from "@project-chip/matter.js/behaviors/thermostat";
-import { Thermostat } from "@project-chip/matter.js/cluster";
-import { Behavior } from "@project-chip/matter.js/behavior";
+import { ThermostatServer as Base } from "@matter/main/behaviors";
+import { Thermostat } from "@matter/main/clusters";
+import { Behavior } from "@matter/main";
 import _ from "lodash";
 import { HomeAssistantBehavior } from "../../custom-behaviors/home-assistant-behavior.js";
 

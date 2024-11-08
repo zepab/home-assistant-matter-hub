@@ -1,5 +1,5 @@
 import { MatterDevice } from "../matter-device.js";
-import { DoorLockDevice } from "@project-chip/matter.js/devices/DoorLockDevice";
+import { DoorLockDevice } from "@matter/main/devices";
 import { BasicInformationServer } from "../behaviors/basic-information-server.js";
 import { IdentifyServer } from "../behaviors/identify-server.js";
 import { LockServer } from "../behaviors/lock-server.js";

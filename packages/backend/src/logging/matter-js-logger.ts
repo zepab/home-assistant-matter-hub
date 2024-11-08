@@ -1,12 +1,12 @@
 import { Logger } from "winston";
-import { Level } from "@project-chip/matter.js/log";
+import { LogLevel } from "@matter/main";
 import stripColor from "strip-color";
 import { createChildLogger } from "./create-child-logger.js";
 
 export function matterJsLogger(
   logger: Logger,
-): (level: Level, formattedLog: string) => void {
-  return (enumLevel: Level, formattedLog: string) => {
+): (level: LogLevel, formattedLog: string) => void {
+  return (enumLevel: LogLevel, formattedLog: string) => {
     formattedLog = stripColor(formattedLog);
 
     const service = formattedLog.substring(31, 52).trim();
@@ -16,7 +16,7 @@ export function matterJsLogger(
       service === "ExchangeManager" &&
       message.startsWith("Cannot find a session for ID ")
     ) {
-      enumLevel = Level.DEBUG;
+      enumLevel = LogLevel.DEBUG;
     }
 
     const level = enumToLevel[enumLevel];
@@ -25,11 +25,11 @@ export function matterJsLogger(
   };
 }
 
-const enumToLevel: Record<Level, string> = {
-  [Level.DEBUG]: "debug",
-  [Level.NOTICE]: "info",
-  [Level.INFO]: "info",
-  [Level.WARN]: "warn",
-  [Level.ERROR]: "error",
-  [Level.FATAL]: "error",
+const enumToLevel: Record<LogLevel, string> = {
+  [LogLevel.DEBUG]: "debug",
+  [LogLevel.NOTICE]: "info",
+  [LogLevel.INFO]: "info",
+  [LogLevel.WARN]: "warn",
+  [LogLevel.ERROR]: "error",
+  [LogLevel.FATAL]: "error",
 };
