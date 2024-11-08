@@ -1,3 +1,15 @@
+## 3.0.0-alpha.22 (2024-11-08)
+
+### 🩹 Fixes
+
+- **binary_sensor:** safe access the config from the state ([b703cc7](https://github.com/t0bst4r/home-assistant-matter-hub/commit/b703cc7))
+- **ci:** remove typo which prevented the release workflow ([7330d8d](https://github.com/t0bst4r/home-assistant-matter-hub/commit/7330d8d))
+- **deps:** update all npm dependencies ([690abbc](https://github.com/t0bst4r/home-assistant-matter-hub/commit/690abbc))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.21 (2024-11-07)
 
 ### 🩹 Fixes
