@@ -55,10 +55,12 @@ jobs:
           NEXT_PACKAGE_VERSION=$(node -p "require('home-assistant-matter-hub/package.json').version")
           echo "package-version=$NEXT_PACKAGE_VERSION" >> "$GITHUB_OUTPUT"
           if [ "$PREV_PACKAGE_VERSION" == "$NEXT_PACKAGE_VERSION" ]; then
-            echo "release-required='no'" >> "$GITHUB_OUTPUT"
+            RELEASE_REQUIRED="no"
           else
-            echo "release-required='yes'" >> "$GITHUB_OUTPUT"
+            RELEASE_REQUIRED="yes"
           fi
+          echo "Previous version: $PREV_PACKAGE_VERSION, New Version: $NEXT_PACKAGE_VERSION, Release required: $RELEASE_REQUIRED"
+          echo "release-required=$RELEASE_REQUIRED" >> "$GITHUB_OUTPUT"
 
       - name: Create Changelog
         id: changelog
