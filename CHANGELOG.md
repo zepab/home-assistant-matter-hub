@@ -1,3 +1,13 @@
+## 3.0.0-alpha.24 (2024-11-09)
+
+### 🚀 Features
+
+- **climate:** add thermostatRunningMode only for autoMode ([c928ca5](https://github.com/t0bst4r/home-assistant-matter-hub/commit/c928ca5))
+
+### ❤️  Thank You
+
+- t0bst4r @t0bst4r
+
 ## 3.0.0-alpha.23 (2024-11-09)
 
 ### 🚀 Features
