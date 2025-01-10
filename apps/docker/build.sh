@@ -1,23 +1,25 @@
 #!/usr/bin/env bash
 
 PACKAGE_VERSION=$(tar xfO package.tgz package/package.json | jq -r ".version")
-IMAGE_NAME="ghcr.io/t0bst4r/home-assistant-matter-hub"
+IMAGE_NAME="ghcr.io/zepab/home-assistant-matter-hub"
 
 DOCKER_PUSH="false"
 TAG_LATEST="false"
-PLATFORMS=""
+PLATFORMS="linux/amd64"
 
-while test $# -gt 0
-do
-    case "$1" in
-        --push) DOCKER_PUSH="true"
-            ;;
-        --latest) TAG_LATEST="true"
-            ;;
-        --all-platforms) PLATFORMS="linux/amd64,linux/arm/v7,linux/arm64/v8"
-            ;;
-    esac
-    shift
+while test $# -gt 0; do
+  case "$1" in
+  --push)
+    DOCKER_PUSH="true"
+    ;;
+  --latest)
+    TAG_LATEST="true"
+    ;;
+  --all-platforms)
+    PLATFORMS="linux/amd64,linux/arm/v7,linux/arm64/v8"
+    ;;
+  esac
+  shift
 done
 
 TAGS=("$IMAGE_NAME:$PACKAGE_VERSION")
